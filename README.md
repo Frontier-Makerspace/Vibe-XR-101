@@ -171,7 +171,7 @@ Each class is **~2 hours**:
 - Text prompt → first 3D artifact, with Cline assisting exploration  
 
 **Outcome:** Everyone builds *something* immediately and understands how Cline fits in.  
-**Link:** _Coming soon_
+**Link:** [Vibe Coding & AI-Native Worldbuilding](https://ti.to/proto7ype/vibe-xr-101/with/class-1-vibe-coding-ai-native-worldbuilding)
 
 ---
 
