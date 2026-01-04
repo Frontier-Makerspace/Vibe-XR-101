@@ -1,9 +1,12 @@
 # Vibe-XR-101
 
-**AI-Native Game, XR, and Worldbuilding with Cline, Unreal, Blender, and Open 3D Models**
+**AI-Native Game, XR, and Worldbuilding with Cline, Unreal, Blender, ThreeJS, and Open 3D Models**
 
 > **Courses coming soon — star this repo ⭐**  
-> https://github.com/Frontier-Makerspace/Vibe-XR-101
+> https://github.com/Frontier-Makerspace/Vibe-XR-101  
+>  
+> Each class will eventually have a **Luma / Tito link** for live attendance  
+> A **paid, on-demand video course** version will follow
 
 ---
 
@@ -27,25 +30,25 @@ In a single session, we went:
 
 All with **Cline reasoning over the project in real time**.
 
-We intentionally kept things fast and high-level. The feedback was clear:
+We intentionally kept things fast and high-level. The feedback was unanimous:
 
 > “We want to go deeper.”  
 > “We want to actually build.”  
 > “We want a real curriculum.”
 
-This repo is the answer to that ask.
+This repo is that curriculum.
 
 ---
 
 ## What Is Vibe XR 101?
 
-**Vibe XR 101** is a **10-class, build-first course** designed to teach modern, AI-native workflows for:
+**Vibe XR 101** is a **10-class, build-first course series** designed to teach modern, AI-native workflows for:
 
-- Video games
-- XR (AR / VR / MR)
-- Interactive simulations
-- Spatial experiences
-- Real-time 3D art
+- Video games  
+- XR (AR / VR / MR)  
+- Interactive simulations  
+- Web-based 3D experiences  
+- Physical outputs (3D printing)
 
 This is not a slide-only course.  
 This is **worldbuilding with intent**, using tools that actually ship.
@@ -55,17 +58,17 @@ This is **worldbuilding with intent**, using tools that actually ship.
 ## Core Philosophy
 
 We believe:
-- AI should *accelerate* creative intent, not replace it
-- Toolchains should be composable and inspectable
-- Builders learn fastest by shipping small, real things
-- Modern 3D workflows are converging across game dev, XR, and the web
+- AI should *accelerate* creative intent, not replace it  
+- Toolchains should be composable, inspectable, and hackable  
+- Builders learn fastest by shipping small, real things  
+- Modern 3D workflows now converge across games, XR, web, and physical fabrication  
 
 You will:
-- Generate assets with AI
-- Modify and understand them
-- Integrate them into real engines
-- Build interactive experiences
-- Learn how the tools actually work together
+- Generate assets with AI  
+- Modify and understand them  
+- Route them into engines, browsers, and printers  
+- Build interactive and physical experiences  
+- Learn how the tools actually fit together  
 
 ---
 
@@ -81,198 +84,270 @@ Throughout the course we’ll use:
 - **Unreal MCP** – AI-assisted Unreal project analysis and editing  
 - **ThreeJS** – Web-based 3D & XR deployment  
 - **WebXR** – Browser-native immersive experiences  
-
-All instructors are fluent across the stack.
+- **3D Printing Toolchains** – STL prep, slicing, physical output  
 
 ---
 
-## Instructors & Roles
+## Instructors & Track Leads
 
-### **Tony Loehr**
+### **Tony Loehr — Unreal Engine + Cline Track**
 - Unreal Engine 5 subject matter expert  
 - Cline DevRel  
 - AI-assisted simulation & XR builder  
-- Focus: engines, systems, AI reasoning, pipelines
+- Focus: engines, systems, AI reasoning, pipelines  
 
-### **Rayyan Zahid**
+### **Rayyan Zahid — ThreeJS + Asset Creation Track**
 - Hunyuan 3D & Blender subject matter expert  
 - Sandbox VR contributor  
 - Simulation Annex  
-- Focus: asset generation, geometry, spatial design
+- Focus: asset generation, geometry, spatial & web-based 3D  
 
-### **Izn Tariq**
-- Integration & glue code specialist  
-- Assists with cross-tool workflows  
-- Helps bridge Unreal, web, and XR deployments
+### **Izn Tariq — 3D Printing + Integration Track**
+- Physical fabrication & digital-to-physical workflows  
+- STL prep, slicing, tolerances, and constraints  
+- Cross-tool integration (AI → mesh → real object)  
 
-All instructors are comfortable with **ThreeJS and web-based 3D**.
+All instructors are fluent in **ThreeJS and web-based 3D**, and collaborate across tracks.
 
 ---
 
-## Course Structure (10 Classes)
+## Course Structure: Shared Core + 3 Paths
 
-Each class is designed for **~2 hours**:
-- Short conceptual intro
-- Live demo
-- Guided build
-- Open exploration
+- **Classes 1–4**: Shared foundation (everyone together)  
+- **Classes 5–9**: Parallel tracks (choose your path)  
+- **Class 10**: Shared capstone & demo night  
+
+Each class is **~2 hours**:
+- Short conceptual intro  
+- Live demo  
+- Guided build  
+- Open exploration  
+
+---
+
+# Shared Core (All Tracks)
 
 ---
 
 ### **Class 1 — Vibe Coding & AI-Native Worldbuilding**
-**Foundations**
+**Foundations**  
+*All instructors*
 
-- What “Vibe Coding” actually means
-- How AI reasons about projects (not just prompts)
-- Overview of the full XR toolchain
-- Intro to Cline and MCPs
-- Text prompt → first 3D scene (fast win)
+- What “Vibe Coding” actually means  
+- How AI reasons about projects (not just prompts)  
+- Overview of the full XR + fabrication toolchain  
+- Intro to Cline and MCPs  
+- Text prompt → first 3D artifact  
 
-**Outcome:** Everyone builds *something* immediately.
+**Outcome:** Everyone builds *something* immediately.  
+**Link:** _Coming soon_
 
 ---
 
 ### **Class 2 — Hunyuan 3D: Text & Image → Geometry**
-**Asset Genesis**
+**Asset Genesis**  
+*Led by Rayyan*
 
-- How Hunyuan works (and its limits)
-- Prompting for usable geometry
-- Image → 3D workflows
-- Evaluating mesh quality
-- Exporting for downstream tools
+- How Hunyuan works (and its limits)  
+- Prompting for usable geometry  
+- Image → 3D workflows  
+- Evaluating mesh quality  
+- Exporting for downstream tools  
 
-**Outcome:** Generated assets ready for Blender.
+**Outcome:** Generated assets ready for Blender.  
+**Link:** _Coming soon_
 
 ---
 
-### **Class 3 — Blender Fundamentals for XR & Games**
-**Making Assets Real**
+### **Class 3 — Blender Fundamentals**
+**Making Assets Real**  
+*Led by Rayyan*
 
-- Cleaning AI-generated meshes
-- Scale, normals, topology
-- Materials & UVs
-- Preparing assets for engines
+- Cleaning AI-generated meshes  
+- Scale, normals, topology  
+- Materials & UVs  
+- Preparing assets for engines, web, and printing  
 
-**Outcome:** Engine-ready assets.
+**Outcome:** Clean, production-ready assets.  
+**Link:** _Coming soon_
 
 ---
 
 ### **Class 4 — Blender MCP: AI-Assisted Modeling**
-**Geometry at the Speed of Thought**
+**Geometry at the Speed of Thought**  
+*Rayyan + Tony*
 
-- What Blender MCP enables
-- Prompt-driven geometry
-- Rapid iteration loops
-- Combining human edits + AI changes
+- What Blender MCP enables  
+- Prompt-driven geometry  
+- Rapid iteration loops  
+- Combining human edits + AI changes  
 
-**Outcome:** Faster, more expressive asset creation.
-
----
-
-### **Class 5 — Unreal Engine 5 Essentials**
-**The Engine Layer**
-
-- Unreal project structure
-- Actors, components, levels
-- Importing and managing assets
-- Lighting, scale, and scene composition
-
-**Outcome:** A playable, explorable scene.
+**Outcome:** Faster, more expressive asset creation.  
+**Link:** _Coming soon_
 
 ---
 
-### **Class 6 — Unreal MCP + Cline**
-**AI That Understands Your Engine**
+# Parallel Tracks (Choose One)
 
-- How Cline reasons about UE projects
-- Asking Cline to inspect and explain your scene
-- Modifying logic and assets with AI
-- Safe iteration vs chaos
-
-**Outcome:** AI-assisted Unreal workflows that feel natural.
+From here, builders choose a primary path.  
+You’re welcome to explore others later.
 
 ---
 
-### **Class 7 — Interaction & Gameplay Logic**
-**Making Worlds Respond**
-
-- Triggers, events, and feedback
-- Simple gameplay loops
-- Environmental interaction
-- AI-assisted debugging
-
-**Outcome:** Worlds that *do something*.
+## Track A — Unreal Engine + Cline (Tony)
 
 ---
 
-### **Class 8 — XR Concepts & Spatial Design**
-**Beyond Flat Screens**
+### **Class 5A — Unreal Engine 5 Essentials**
+- Unreal project structure  
+- Actors, components, levels  
+- Importing assets  
+- Lighting and scene composition  
 
-- XR interaction patterns
-- Comfort and scale
-- World anchoring concepts
-- Translating UE scenes to XR contexts
-
-**Outcome:** XR-ready thinking.
+**Outcome:** A playable UE5 scene.  
+**Link:** _Coming soon_
 
 ---
 
-### **Class 9 — ThreeJS & WebXR**
-**Shipping to the Web**
+### **Class 6A — Unreal MCP + Cline**
+- How Cline reasons about Unreal projects  
+- Asking Cline to inspect, explain, and modify scenes  
+- AI-assisted iteration without chaos  
 
-- Exporting assets for the web
-- ThreeJS scene basics
-- WebXR fundamentals
-- Lightweight interactive experiences
+**Outcome:** AI-native Unreal workflows.  
+**Link:** _Coming soon_
 
-**Outcome:** Deployable web-based 3D or XR demo.
+---
+
+### **Class 7A — Interaction & Gameplay Logic**
+- Triggers, events, and feedback  
+- Simple gameplay loops  
+- Debugging with Cline  
+
+**Outcome:** Interactive worlds.  
+**Link:** _Coming soon_
+
+---
+
+## Track B — ThreeJS + WebXR (Rayyan)
+
+---
+
+### **Class 5B — ThreeJS Fundamentals**
+- Scene, camera, renderer  
+- Asset loading  
+- Lighting and transforms  
+
+**Outcome:** A live 3D web scene.  
+**Link:** _Coming soon_
+
+---
+
+### **Class 6B — Interaction & Animation**
+- User input  
+- Animation loops  
+- Basic physics concepts  
+
+**Outcome:** Interactive web-based 3D experience.  
+**Link:** _Coming soon_
+
+---
+
+### **Class 7B — WebXR & Immersive Web**
+- WebXR basics  
+- VR/AR in the browser  
+- Performance considerations  
+
+**Outcome:** Deployable WebXR demo.  
+**Link:** _Coming soon_
+
+---
+
+## Track C — 3D Printing & Physical Output (Izn)
+
+---
+
+### **Class 5C — Designing for the Real World**
+- Mesh constraints for printing  
+- Watertight geometry  
+- Scale and tolerances  
+
+**Outcome:** Printable meshes.  
+**Link:** _Coming soon_
+
+---
+
+### **Class 6C — From AI Mesh to STL**
+- Converting AI-generated assets  
+- Repair workflows  
+- Orientation and supports  
+
+**Outcome:** Print-ready STL files.  
+**Link:** _Coming soon_
+
+---
+
+### **Class 7C — Slicing & Fabrication**
+- Slicers and settings  
+- Material choices  
+- Iteration between digital and physical  
+
+**Outcome:** A physically fabricated object.  
+**Link:** _Coming soon_
+
+---
+
+# Shared Capstone
 
 ---
 
 ### **Class 10 — Capstone: Build & Demo Night**
-**Ship Something Real**
+**All tracks converge**
 
-- Open build session
-- Instructor support
-- Live demos
-- Feedback & iteration
-- What to build next
+- Open build session  
+- Instructor support across tracks  
+- Live demos  
+- Feedback & iteration  
+- What to build next  
 
-**Outcome:** A portfolio-worthy prototype.
+**Outcome:**  
+A **portfolio-worthy digital or physical project**.  
+**Link:** _Coming soon_
 
 ---
 
 ## What You’ll Walk Away With
 
-By the end of Vibe XR 101, you will:
-- Understand modern AI-native 3D pipelines
-- Be comfortable moving between tools
-- Build interactive worlds, not just assets
-- Know how to use Cline as a creative accelerator
-- Have a foundation for games, XR, or simulations
+By the end of **Vibe XR 101**, you will:
+- Understand modern AI-native 3D pipelines  
+- Be fluent moving between AI, geometry, engines, web, and hardware  
+- Build interactive *and* physical worlds  
+- Know how to use Cline as a creative accelerator  
+- Have a foundation for games, XR, web, or fabrication  
 
 ---
 
 ## What’s Next
 
-- Course schedule dropping soon  
-- Enrollment details coming soon  
-- Workshop recordings & examples will be added here  
+- Live course schedule dropping soon  
+- Luma / Tito links added per class  
+- Paid video course version in development  
+- Starter templates & example repos coming  
 
 👉 **Star this repo** to follow along and get updates.
 
 ---
 
-## 🖤 PROTO7YPE
+## PROTO7YPE
 
 This course is built and hosted by **PROTO7YPE / Frontier Makerspace** — a builder-first community for:
 
-- Game dev
-- XR
-- Robotics
-- AI
-- Creative technology
+- Game dev  
+- XR  
+- Arts
+- Robotics  
+- AI  
+- Creative technology  
 
 No spectators.  
 Only builders.
-
